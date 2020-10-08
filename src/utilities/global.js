@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'polished';
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 ${normalize()};
 
@@ -22,6 +22,7 @@ input,button{
     &:focus,&:active{
         outline:none;
     }
+    border:none;
 }
 
 

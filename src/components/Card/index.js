@@ -3,11 +3,13 @@ import { Container, Description, SuperHost, Rating } from './style';
 import { AiFillStar } from 'react-icons/ai';
 
 const Card = (props) => {
-  const { photo, title, rating, beds, type, superHost } = props.apt
-  console.log(photo, title)
+  const { photo, title, rating, beds, type, superHost } = props.apt;
+  console.log(photo, title);
   return (
     <Container>
-      <img src={photo} className="image" alt={title} />
+      <div className="photo">
+        <img src={photo} className="image" alt={title} />
+      </div>
       <Description>
         {superHost ? <SuperHost>SuperHost</SuperHost> : null}
         <div className="title">

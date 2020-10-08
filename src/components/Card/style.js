@@ -6,8 +6,11 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 1rem 0;
   color: black;
+  flex-basis: 30%;
+  overflow: hidden;
 
   .image {
+    width: 100%;
     border-radius: 24px;
     margin-bottom: 1rem;
   }
