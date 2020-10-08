@@ -5,6 +5,10 @@ export const Container = styled.div`
   margin: 5rem 3rem;
   flex-direction: column;
   padding: 1rem 0;
+
+  .image {
+    border-radius: 24px;
+  }
 `;
 
 export const Description = styled.div`
