@@ -5,9 +5,11 @@ export const Container = styled.div`
   margin: 5rem 3rem;
   flex-direction: column;
   padding: 1rem 0;
+  color: black;
 
   .image {
     border-radius: 24px;
+    margin-bottom: 1rem;
   }
 `;
 
