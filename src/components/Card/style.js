@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  margin: 5rem 3rem;
   flex-direction: column;
   padding: 1rem 0;
   color: black;
@@ -13,6 +12,7 @@ export const Container = styled.div`
     width: 100%;
     border-radius: 24px;
     margin-bottom: 1rem;
+    height: 20rem;
   }
 `;
 
@@ -20,14 +20,16 @@ export const Description = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: baseline;
+  margin-bottom: 0.8rem;
 `;
 
 export const SuperHost = styled.div`
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   border: 1px solid #4f4f4f;
-  border-radius: 5px;
+  border-radius: 24px;
   font-weight: bold;
 `;
 

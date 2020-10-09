@@ -13,7 +13,7 @@ const Card = (props) => {
       <Description>
         {superHost ? <SuperHost>SuperHost</SuperHost> : null}
         <div className="title">
-          {type} {superHost ? <span>{beds}</span> : null}
+          {type} {superHost ? <span>{beds} beds</span> : null}
         </div>
         <Rating>
           <AiFillStar />
