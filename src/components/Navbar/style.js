@@ -11,5 +11,4 @@ export const Input = styled.input`
 
 `
 export const Logo = styled.img`
-  width: 30%
 `
